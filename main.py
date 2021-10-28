@@ -54,6 +54,6 @@ def log_workout(workout_type):
     print(res2.text)
 
 
-user_input = input("Please enter your workout: ")
+user_input = input("Please enter your workout description: ")
 
 log_workout(user_input)
